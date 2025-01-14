@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_dial"
+        android:title="Dial Number"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_website"
+        android:title="Open Website"
+        android:icon="@android:drawable/ic_menu_compass"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_sms"
+        android:title="Send SMS"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="always" />
+</menu>
